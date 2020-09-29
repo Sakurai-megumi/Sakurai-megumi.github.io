@@ -77,16 +77,12 @@ nav ul {
 nav a {
   width: 90px;
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
   display: block;
   flex: 1;
   
 }
 
-#count {
-  text-align: center;
-  margin: auto 300px auto auto;
-}
 
 .btn a {
   color: #d0576b;
@@ -181,6 +177,65 @@ footer {
 #tw {
   margin: 50px auto 20px auto;
 }
+
+.novel {
+  margin-left: 50px;
+  max-width: 600px;
+}
+
+.plus  {
+  font-size: 15px;
+  margin: 20px auto 20px 100px;
+}
+
+.senden {
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.senden h2 {
+font-size: 15px;
+color: #544a47;
+}
+
+.senden table {
+  margin: -15px auto auto 30px;
+}
+
+.senden th {
+  width: 300px;
+}
+
+.senden td {
+  width: 500px;
+}
+
+.short dl {
+  margin: 0 0 30px 40px;;
+}
+
+.short dt a {
+  width: 280px;
+  display: block;
+  line-height: 30px;
+  padding: 0 20px 4px 15px;
+  /* background-color: red; */
+  margin: 0 0 20px 0;
+}
+
+.short dt a:hover {
+  border-bottom: solid 1px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  
+}
+
+.short dd {
+  margin: -10px 0 0 30px;
+  font-size: 17px;
+}
+
 
 
 
