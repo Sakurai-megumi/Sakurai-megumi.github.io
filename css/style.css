@@ -1,0 +1,222 @@
+@charset "uft=8";
+
+body {
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  color: #333333;
+  font-size: 20px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+/* img {
+  vertical-align: bottom
+} */
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+/*リンクの設定*/
+
+a {
+  color: #485859;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #53727d;
+}
+
+a:hover {
+  color: #2c4f54;
+  text-decoration: underline;
+}
+
+/* リンクの設定　ここまで */
+
+header {
+  max-width: 800px;
+  height: 150px;
+}
+
+
+.logo {
+  margin-left: 30px;
+  font-size: 40px;
+  background: blue;
+}
+
+.nav {
+  /* margin-left: auto; */
+  margin-right: 30px;
+  background: pink;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+  margin: 40px 20px 0 0 ;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+nav a {
+  width: 90px;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  flex: 1;
+  
+}
+
+#count {
+  text-align: center;
+  margin: auto 300px auto auto;
+}
+
+.btn a {
+  color: #d0576b;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 10px 0 0 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+nav li a:hover {
+  border-bottom: 1px solid #2c4f54;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+table {
+  font-size: 18px;
+}
+
+footer {
+  text-align: left;
+  margin: 50px 0 0 30px;
+  color: #887f7a;
+}
+
+#index h1 {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #544a47;
+  margin: auto auto 15px 30px;
+  
+}
+
+#index h2 {
+  font-size: 20px;
+  color: #544a47;
+  margin: auto auto auto 30px;
+}
+
+
+#index .aaa {
+  margin: -15px 0 20px 40px;
+  padding: -10px;
+}
+
+
+#index th {
+  width: 200px;
+}
+
+#index td {
+  width: 400px;
+}
+
+.my {
+  font-size: 24px;
+  font-weight: 600;
+  margin: auto auto auto 40px;
+}
+
+#about table {
+  margin-bottom: 20px;
+  margin-left: 30px ;
+  border:1px solid #c0c0c0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#about tr {
+  height: 40px;
+}
+
+#about th {
+  width: 200px;
+  border: 1px solid #c0c0c0;
+}
+
+#about td{
+  width: 500px;
+  padding: 10px 15px 10px 20px;
+  border: 1px solid #c0c0c0;
+}
+
+
+#tw {
+  margin: 50px auto 20px auto;
+}
+
+
+
+
+/* 以下レスポンシブ対応　600ｐｘ以下で変更？*/
+
+@media (max-width: 600px) {
+ 
+  body {
+    font-size: 8vw;
+  }
+  h1 {
+    font-size: 11vw;
+  }
+  
+  h2 {
+    font-size: 9vw;
+  }
+  
+  header {
+    width: auto;
+    margin: 0 5%;
+  }
+  
+  .logo {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+
+  th {
+    width: 40%;
+  }
+  td {
+    width: 60%;
+  }
+
+}
+
