@@ -174,10 +174,6 @@ footer {
 }
 
 
-#tw {
-  margin: 50px auto 20px auto;
-}
-
 .novel {
   margin-left: 50px;
   max-width: 600px;
@@ -263,6 +259,7 @@ color: #544a47;
   .logo {
     margin-top: 50px;
     text-align: center;
+    display: block;
   }
   
 
