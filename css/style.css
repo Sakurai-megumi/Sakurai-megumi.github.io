@@ -318,8 +318,12 @@ color: #544a47;
   }
 
   .novel p {
-     word-break: break-all;
+     width: 90%;
+     /* word-break: break-all;
      line-break: strict;
+     font-size: 5vw;
+     padding: 0;
+     margin: 0; */
   }
 
 
