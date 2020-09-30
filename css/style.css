@@ -221,24 +221,24 @@ color: #544a47;
 }
 
 .short dt a {
-  width: 280px;
-  display: block;
-  line-height: 30px;
+  line-height: 25px;
+  color: #333333;
   padding: 0 20px 4px 15px;
   /* background-color: red; */
-  margin: 0 0 20px 0;
+  margin: 0 0 25px 0;
 }
 
 .short dt a:hover {
+  /* color:  */
   border-bottom: solid 1px;
-  padding-bottom: 3px;
   text-decoration: none;
   
 }
 
 .short dd {
-  margin: -10px 0 0 30px;
+  margin: 5px 0 15px 30px;
   font-size: 17px;
+  /* background-color: gold; */
 }
 
 
@@ -252,10 +252,29 @@ color: #544a47;
   body {
     font-size: 4vw;
     background-color: #cffacf;
+    width: 100%;
   }
+
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #333333;
+  }
+  
+  a:hover {
+    color: #333333;
+    text-decoration: underline;
+  } 
 
   .not {
     display: none;
+  }
+
+  .forgit {
+    font-size: 4vw;
   }
 
   h1 {
@@ -267,7 +286,7 @@ color: #544a47;
   }
   
   header {
-    width: auto;
+    /* width: auto; */
     height: auto;
     margin: 5% 5% 15% 5%;
     display: block;
@@ -278,18 +297,27 @@ color: #544a47;
   .container {
     display: block;
   }
+
   .logo {
     text-align: center;
     display: block;
+    line-height: 1;
     /* height: 1; */
   }
   
   .logo a {
     font-size: 8vw;
+    
   }
 
   .btn {
     margin: 0;
+  }
+
+  .btn a {
+    color: #d0576b;
+    text-decoration: none
+    ;
   }
 
   nav a {
@@ -311,21 +339,38 @@ color: #544a47;
     display: block;
     width: 100%;
   }
+
   td {
     /* border: hidden; */
     display: block;
     width: 100%;
   }
 
+
+  dl {
+    width: 100%;
+    /* background: orange; */
+  }
+  
+  dt {
+    width: 350px;
+    /* background: orchid; */
+  }
+  
+  
+  .short dt a {
+    width: auto;
+    font-size: 4vw;
+    color: black;
+    /* background: blue; */
+  }
+  .short dt a :hover {
+    text-decoration: none;
+  }
   .novel p {
-     width: 90%;
-     /* word-break: break-all;
-     line-break: strict;
-     font-size: 5vw;
-     padding: 0;
-     margin: 0; */
+     width: 100%;
   }
 
 
-}
 
+}
