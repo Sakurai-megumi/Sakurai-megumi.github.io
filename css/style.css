@@ -4,7 +4,7 @@ body {
   max-width: 800px;
   margin: 0;
   padding: 0;
-  background-color: beige;
+  background-color: #fff4f4;
   color: #333333;
   font-size: 20px;
   line-height: 2;
@@ -47,18 +47,18 @@ a:hover {
 
 header {
   max-width: 800px;
-  height: 150px;
+  height: 140px;
+  margin-bottom: 30px;
 }
 
 
 .logo {
   margin-left: 30px;
-  font-size: 40px;
+  font-size: 28px;
   /* background: blue; */
 }
 
 .nav {
-  /* margin-left: auto; */
   margin-right: 30px;
   /* background: pink; */
   flex: 1;
@@ -100,7 +100,6 @@ nav li a:hover {
 }
 
 .content {
-  width: 960px;
   margin: 0 auto;
   
 }
@@ -176,6 +175,16 @@ footer {
 
 .novel {
   margin-left: 50px;
+  margin-right: 50px;
+  word-break: break-all;
+}
+
+.novel h1 {
+  font-size: 22px;
+}
+
+.novel p {
+  font-size: 18px;
   max-width: 600px;
 }
 
@@ -241,34 +250,78 @@ color: #544a47;
 @media (max-width: 600px) {
  
   body {
-    font-size: 8vw;
+    font-size: 4vw;
+    background-color: #cffacf;
   }
+
+  .not {
+    display: none;
+  }
+
   h1 {
-    font-size: 11vw;
+    font-size: 8vw;
   }
   
   h2 {
-    font-size: 9vw;
+    font-size: 6vw;
   }
   
   header {
     width: auto;
-    margin: 0 5%;
-  }
-  
-  .logo {
-    margin-top: 50px;
-    text-align: center;
+    height: auto;
+    margin: 5% 5% 15% 5%;
+    display: block;
+    margin-bottom: 5px;
     display: block;
   }
   
+  .container {
+    display: block;
+  }
+  .logo {
+    text-align: center;
+    display: block;
+    /* height: 1; */
+  }
+  
+  .logo a {
+    font-size: 8vw;
+  }
 
+  .btn {
+    margin: 0;
+  }
+
+  nav a {
+    padding-bottom: 10px;
+  }
+
+  .content {
+    margin-top: 20px;
+  }
+
+
+  table {
+    border: hidden;
+    margin-left: 5%;
+  }
+  
   th {
-    width: 40%;
+    /* border: hidden; */
+    display: block;
+    width: 100%;
   }
   td {
-    width: 60%;
+    /* border: hidden; */
+    display: block;
+    width: 100%;
   }
+
+  .novel p {
+     word-break: break-all;
+     line-break: strict;
+  }
+
 
 }
 
