@@ -54,8 +54,11 @@ header {
 
 .logo {
   margin-left: 30px;
-  font-size: 28px;
+  font-size: 30px;
   /* background: blue; */
+}
+.forgit {
+  font-size: 20px;
 }
 
 .nav {
@@ -301,8 +304,10 @@ color: #544a47;
   .logo {
     text-align: center;
     display: block;
+    width: 290px;
     line-height: 1;
     /* height: 1; */
+    /* background-color: tomato; */
   }
   
   .logo a {
