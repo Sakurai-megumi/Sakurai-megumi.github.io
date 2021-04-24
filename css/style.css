@@ -244,6 +244,13 @@ color: #544a47;
   /* background-color: gold; */
 }
 
+dt {
+  margin: 5px 0 0 15px;
+}
+
+dd {
+  margin: 5px 0 0 20px;
+}
 
 
 
