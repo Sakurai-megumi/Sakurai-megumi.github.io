@@ -349,7 +349,7 @@ dd {
   }
   
   th {
-    /* border: hidden; */
+    border: hidden;
     display: block;
     width: 100%;
   }
@@ -360,21 +360,6 @@ dd {
     width: 100%;
   }
 
-
-  dl {
-    width: 100%;
-    border: hidden;
-    display: block;
-    /* background: orange; */
-  }
-  
-  dt {
-    max-width: 350px;
-    border: hidden;
-    display: block;
-    /* background: orchid; */
-  }
-  
   
   .short dt a {
     width: auto;
