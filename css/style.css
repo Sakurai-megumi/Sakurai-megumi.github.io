@@ -337,6 +337,8 @@ color: #544a47;
   table {
     border: hidden;
     margin-left: 5%;
+    display: block;
+    width: 100%;
   }
   
   th {
@@ -346,7 +348,7 @@ color: #544a47;
   }
 
   td {
-    /* border: hidden; */
+    border: hidden;
     display: block;
     width: 100%;
   }
@@ -354,11 +356,15 @@ color: #544a47;
 
   dl {
     width: 100%;
+    border: hidden;
+    display: block;
     /* background: orange; */
   }
   
   dt {
-    width: 350px;
+    max-width: 350px;
+    border: hidden;
+    display: block;
     /* background: orchid; */
   }
   
