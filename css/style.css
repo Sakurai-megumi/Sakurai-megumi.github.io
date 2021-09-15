@@ -175,6 +175,13 @@ footer {
   border: 1px solid #c0c0c0;
 }
 
+.index {
+  margin: 0 0 0 60px;
+}
+
+.work {
+  margin-left: 80px;
+}
 
 .novel {
   margin-left: 50px;
@@ -196,7 +203,7 @@ footer {
   margin: 20px auto 20px 100px;
 }
 
-.senden {
+/* .senden {
   font-size: 15px;
   margin-left: 50px;
   margin-top: 20px;
@@ -205,9 +212,9 @@ footer {
 .senden h2 {
 font-size: 15px;
 color: #544a47;
-}
+} */
 
-.senden table {
+/* .senden table {
   margin: -15px auto auto 30px;
 }
 
@@ -221,7 +228,7 @@ color: #544a47;
 
 .short dl {
   margin: 0 0 30px 40px;;
-}
+} */
 
 .short dt a {
   line-height: 25px;
