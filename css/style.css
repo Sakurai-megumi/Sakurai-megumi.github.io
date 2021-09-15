@@ -137,6 +137,9 @@ footer {
   padding: -10px;
 }
 
+.index dl {
+  margin: 0 0 0 40px;
+}
 
 #index th {
   width: 200px;
@@ -180,7 +183,51 @@ footer {
 }
 
 .work {
-  margin-left: 80px;
+  margin:0 0 40px 90px;
+  font-size: 18px;
+}
+
+.link {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+} 
+
+.link a {
+  width: 150px;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  flex: 1;
+}
+
+.work dl {
+  margin: 0 0 0 0;
+  font-size: 18px;
+}
+
+.work ul {
+  list-style: none;
+  margin: 8px 0 0 30px;
+  font-size: 18px;
+}
+
+/* .work li {
+  margin: 0 0 0 50px;
+} */
+
+.work a {
+  color: #485859;
+}
+
+.daimei {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.work a:hover {
+  border-bottom: solid 1px;
+  text-decoration: none;
 }
 
 .novel {
@@ -224,11 +271,16 @@ color: #544a47;
 
 .senden td {
   width: 500px;
+} */
+
+
+.short {
+  margin-left: 25px;
 }
 
 .short dl {
-  margin: 0 0 30px 40px;;
-} */
+  margin: 0 0 30px 40px;
+} 
 
 .short dt a {
   line-height: 25px;
@@ -247,7 +299,7 @@ color: #544a47;
 
 .short dd {
   margin: 5px 0 15px 30px;
-  font-size: 15px;
+  font-size: 18px;
   /* background-color: gold; */
 }
 
